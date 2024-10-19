@@ -113,6 +113,36 @@ describe('/feriados/v1 (E2E)', () => {
       expect.arrayContaining(getHolidays(2024, ['Dia da consciência negra']))
     );
   });
+
+  test('Feriados nacionais e estaduais no Rio de Janeiro', async () => {
+    const requestUrl = `${global.SERVER_URL}/api/feriados/v1/2024/rj`;
+    const { data } = await axios.get(requestUrl);
+
+    const stateData = data.filter(({ type }) => type === 'state');
+
+    expect.assertions(2);
+    expect(stateData.length).toBeGreaterThan(0);
+    expect(data.length).toBeGreaterThan(stateData.length);
+  });
+
+  test('Feriados estaduais no Rio de Janeiro', async () => {
+    const requestUrl = `${global.SERVER_URL}/api/feriados/v1/2024/rj?tipo=estadual`;
+    const { data } = await axios.get(requestUrl);
+
+    const stateData = data.filter(({ type }) => type === 'state');
+
+    expect.assertions(2);
+    expect(stateData.length).toBeGreaterThan(0);
+    expect(data.length).toEqual(stateData.length);
+  });
+
+  test('Feriados nacionais especificando tipo estadual sem o estado', async () => {
+    const requestUrl = `${global.SERVER_URL}/api/feriados/v1/2024?tipo=estadual`;
+    const { data } = await axios.get(requestUrl);
+
+    expect.assertions(1);
+    expect(data.length).toEqual(0);
+  });
 });
 
 testCorsForRoute('/api/feriados/v1/2020');

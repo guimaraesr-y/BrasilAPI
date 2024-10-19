@@ -3,9 +3,10 @@ import BaseError from '@/errors/BaseError';
 import InternalError from '@/errors/InternalError';
 import getHolidays from '@/services/holidays';
 
-const action = (request, response) => {
+const action = async (request, response) => {
   try {
-    const holidays = getHolidays(request.query.ano);
+    const { ano, estado, tipo } = request.query;
+    const holidays = await getHolidays(ano, estado ? estado[0] : null, tipo);
 
     response.status(200).json(holidays);
   } catch (error) {

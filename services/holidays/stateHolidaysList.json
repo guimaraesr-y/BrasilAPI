@@ -1,0 +1,290 @@
+[
+    {
+        "dia": "23",
+        "mes": "01",
+        "uf": "AC",
+        "evento": "Dia do Evangélico"
+    },
+    {
+        "dia": "15",
+        "mes": "06",
+        "uf": "AC",
+        "evento": "Aniversário do Acre"
+    },
+    {
+        "dia": "05",
+        "mes": "09",
+        "uf": "AC",
+        "evento": "Dia da Amazônia"
+    },
+    {
+        "dia": "17",
+        "mes": "11",
+        "uf": "AC",
+        "evento": "Assinatura do Tratado de Petrópolis"
+    },
+    {
+        "dia": "24",
+        "mes": "06",
+        "uf": "AL",
+        "evento": "São João"
+    },
+    {
+        "dia": "29",
+        "mes": "06",
+        "uf": "AL",
+        "evento": "São Pedro"
+    },
+    {
+        "dia": "16",
+        "mes": "09",
+        "uf": "AL",
+        "evento": "Emancipação Política de Alagoas"
+    },
+    {
+        "dia": "20",
+        "mes": "11",
+        "uf": "AL",
+        "evento": "Consciência Negra"
+    },
+    {
+        "dia": "05",
+        "mes": "09",
+        "uf": "AM",
+        "evento": "Elevação do Amazonas à categoria de Província"
+    },
+    {
+        "dia": "20",
+        "mes": "11",
+        "uf": "AM",
+        "evento": "Consciência Negra"
+    },
+    {
+        "dia": "08",
+        "mes": "12",
+        "uf": "AM",
+        "evento": "Dia de Nossa Senhora da Conceição"
+    },
+    {
+        "dia": "19",
+        "mes": "03",
+        "uf": "AP",
+        "evento": "Dia de São José"
+    },
+    {
+        "dia": "25",
+        "mes": "07",
+        "uf": "AP",
+        "evento": "São Tiago"
+    },
+    {
+        "dia": "05",
+        "mes": "10",
+        "uf": "AP",
+        "evento": "Criação do Estado do Amapá"
+    },
+    {
+        "dia": "20",
+        "mes": "11",
+        "uf": "AP",
+        "evento": "Consciência Negra"
+    },
+    {
+        "dia": "02",
+        "mes": "07",
+        "uf": "BA",
+        "evento": "Independência da Bahia"
+    },
+    {
+        "dia": "19",
+        "mes": "03",
+        "uf": "CE",
+        "evento": "Dia de São José"
+    },
+    {
+        "dia": "25",
+        "mes": "03",
+        "uf": "CE",
+        "evento": "Data Magna do Ceará"
+    },
+    {
+        "dia": "21",
+        "mes": "04",
+        "uf": "DF",
+        "evento": "Fundação de Brasília"
+    },
+    {
+        "dia": "30",
+        "mes": "11",
+        "uf": "DF",
+        "evento": "Dia do Evangélico"
+    },
+    {
+        "dia": "28",
+        "mes": "10",
+        "uf": "ES",
+        "evento": "Dia do Servidor Público"
+    },
+    {
+        "dia": "28",
+        "mes": "10",
+        "uf": "GO",
+        "evento": "Dia do Servidor Público"
+    },
+    {
+        "dia": "28",
+        "mes": "07",
+        "uf": "MA",
+        "evento": "Adesão do Maranhão à Independência"
+    },
+    {
+        "dia": "08",
+        "mes": "12",
+        "uf": "MA",
+        "evento": "Nossa Senhora da Conceição"
+    },
+    {
+        "dia": "21",
+        "mes": "04",
+        "uf": "MG",
+        "evento": "Data Magna de Minas Gerais"
+    },
+    {
+        "dia": "11",
+        "mes": "10",
+        "uf": "MS",
+        "evento": "Criação do Estado do Mato Grosso do Sul"
+    },
+    {
+        "dia": "20",
+        "mes": "11",
+        "uf": "MT",
+        "evento": "Consciência Negra"
+    },
+    {
+        "dia": "15",
+        "mes": "08",
+        "uf": "PA",
+        "evento": "Adesão do Grão-Pará à Independência"
+    },
+    {
+        "dia": "05",
+        "mes": "08",
+        "uf": "PB",
+        "evento": "Fundação do Estado da Paraíba"
+    },
+    {
+        "dia": "24",
+        "mes": "06",
+        "uf": "PE",
+        "evento": "São João"
+    },
+    {
+        "dia": "13",
+        "mes": "03",
+        "uf": "PI",
+        "evento": "Dia da Batalha do Jenipapo"
+    },
+    {
+        "dia": "19",
+        "mes": "10",
+        "uf": "PI",
+        "evento": "Dia do Piauí"
+    },
+    {
+        "dia": "23",
+        "mes": "04",
+        "uf": "RJ",
+        "evento": "Dia de São Jorge"
+    },
+    {
+        "dia": "28",
+        "mes": "10",
+        "uf": "RJ",
+        "evento": "Dia do Funcionário Público"
+    },
+    {
+        "dia": "20",
+        "mes": "11",
+        "uf": "RJ",
+        "evento": "Zumbi dos Palmares"
+    },
+    {
+        "dia": "08",
+        "mes": "12",
+        "uf": "RJ",
+        "evento": "Dia de Nossa Senhora da Conceição"
+    },
+    {
+        "dia": "29",
+        "mes": "06",
+        "uf": "RN",
+        "evento": "Dia de São Pedro"
+    },
+    {
+        "dia": "03",
+        "mes": "10",
+        "uf": "RN",
+        "evento": "Mártires de Cunhaú e Uruaçuu"
+    },
+    {
+        "dia": "04",
+        "mes": "01",
+        "uf": "RO",
+        "evento": "Criação do Estado de Rondônia"
+    },
+    {
+        "dia": "18",
+        "mes": "06",
+        "uf": "RO",
+        "evento": "Dia do Evangélico"
+    },
+    {
+        "dia": "05",
+        "mes": "10",
+        "uf": "RR",
+        "evento": "Criação do Estado de Roraima"
+    },
+    {
+        "dia": "20",
+        "mes": "09",
+        "uf": "RS",
+        "evento": "Revolução Farroupilha"
+    },
+    {
+        "dia": "11",
+        "mes": "08",
+        "uf": "SC",
+        "evento": "Criação da Capitania"
+    },
+    {
+        "dia": "08",
+        "mes": "07",
+        "uf": "SE",
+        "evento": "Autonomia Política de Sergipe"
+    },
+    {
+        "dia": "09",
+        "mes": "07",
+        "uf": "SP",
+        "evento": "Revolução Constitucionalista de 1932"
+    },
+    {
+        "dia": "01",
+        "mes": "01",
+        "uf": "TO",
+        "evento": "Instalação de Tocantins"
+    },
+    {
+        "dia": "08",
+        "mes": "09",
+        "uf": "TO",
+        "evento": "Nossa Senhora da Natividade"
+    },
+    {
+        "dia": "05",
+        "mes": "10",
+        "uf": "TO",
+        "evento": "Criação de Tocantins"
+    }
+]

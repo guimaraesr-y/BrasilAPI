@@ -1,4 +1,5 @@
 import NotFoundError from '@/errors/NotFoundError';
+import stateHolidaysList from './stateHolidaysList.json';
 
 /**
  * Tabela da lua cheia de Páscoa, valida entre 1900 e 2199, inclusive.
@@ -123,6 +124,24 @@ export function getNationalHolidays(year) {
   }));
 }
 
+export function getStateHolidays(year, state) {
+  const holidays = stateHolidaysList.reduce((acc, holiday) => {
+    acc[holiday.uf] = acc[holiday.uf] || [];
+
+    acc[holiday.uf] = [
+      ...acc[holiday.uf],
+      {
+        date: `${year}-${holiday.mes}-${holiday.dia}`,
+        name: holiday.evento,
+        type: 'state',
+      },
+    ];
+    return acc;
+  }, {});
+
+  return holidays[state.toUpperCase()];
+}
+
 function sortByDate(holidays) {
   return holidays.sort((a, b) => {
     if (a.date > b.date) {
@@ -135,8 +154,19 @@ function sortByDate(holidays) {
   });
 }
 
-export default function getHolidays(year) {
+export default function getHolidays(year, state, type) {
+  let stateHolidays = [];
+
+  if (state) {
+    stateHolidays = getStateHolidays(year, state);
+  }
+
+  if (type === 'estadual') {
+    return sortByDate(stateHolidays);
+  }
+
   const easterHolidays = getEasterHolidays(year);
   const nationalHolidays = getNationalHolidays(year);
-  return sortByDate([...easterHolidays, ...nationalHolidays]);
+
+  return sortByDate([...easterHolidays, ...nationalHolidays, ...stateHolidays]);
 }
